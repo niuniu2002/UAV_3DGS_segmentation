@@ -1,26 +1,25 @@
-# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
+*.so
+.build/
+.eggs/
+*.egg-info/
+venv/
 .env
-.ipynb_checkpoints/
-
-# OS
+.env.*
 .DS_Store
-
-# Data and runs
-datasets/
-runs/
-checkpoints/
-*.pth
-*.onnx
-*.engine
-
-# VSCode
+Thumbs.db
+.idea/
 .vscode/
-
-# Logs
+pytest_cache/
+.cache/
 logs/
+runs/
+outputs/
+checkpoints/
 wandb/
+*.log
+__temp__/
+.datasets_cache/
