@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data and runs
+datasets/
+runs/
+checkpoints/
+*.pth
+*.onnx
+*.engine
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+wandb/
